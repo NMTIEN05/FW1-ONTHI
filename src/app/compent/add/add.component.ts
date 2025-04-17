@@ -13,33 +13,33 @@ import { Router } from '@angular/router';
 })
 export class AddComponent {
   constructor (private film:FilmService,
-    private router:Router
+    private nav:Router
   ){}
-  onAdd(data:any):void{
-    if(!data.tenPhim || data.tenPhim.length<6){
+  onSubmit(value:any){
+    if(!value.tenPhim || value.tenPhim.length<6){
       alert("nhập tên phim và lớn hơn 6 ký tự ")
       return;
     }
-    if(!data.daoDien){
+    if(!value.daoDien){
       alert("nhập tên đạo diễn ")
       return;
     }
-    if(!data.anhBia){
-      alert("nhập tên phim và lớn hơn 6 ký tự ")
+    if(!value.anhBia){
+      alert("nhập anhBia")
       return;
     }
-    if(!data.ngayPhatHanh){
+    if(!value.ngayPhatHanh){
       alert("nhập ngày phát hành ")
       return;
     }
-   
-    this.film.add(data).subscribe({
-      next:()=>{
-        alert("thêm tc")
-        this.router.navigate([''])
-      }
+    this.film.add(value).subscribe({
       
+      next:()=>{
+       
+        alert("thêm ok")
+        this.nav.navigate(['list'])
+        
+      }
     })
-
   }
 }

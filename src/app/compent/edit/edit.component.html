@@ -1,1 +1,28 @@
-<p>edit works!</p>
+<h2 class="mb-4">Thêm phim mới</h2>
+<form #edit="ngForm" (ngSubmit)="onEdit(edit.value)" >
+  <div class="row mb-3">
+    <div class="col">
+      <label class="form-label">Tiêu đề</label>
+      <input type="text" class="form-control" name="tenPhim"   [(ngModel)]="oldFilm.tenPhim" required>
+    </div>
+    <div class="col">
+      <label class="form-label">Đạo diễn</label>
+      <input type="text" class="form-control" name="daoDien" [(ngModel)]="oldFilm.daoDien"  required>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col">
+      <label class="form-label">Ngày phát hành</label>
+      <input type="date" class="form-control" name="ngayPhatHanh" [(ngModel)]="oldFilm.ngayPhatHanh"  required>
+    </div>
+    <div class="col">
+      <label class="form-label">Thể loại</label>
+      <input type="text" class="form-control" name="theLoai" [(ngModel)]="oldFilm.theLoai"  required>
+    </div>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">URL Ảnh bìa</label>
+    <input type="url" class="form-control" name="anhBia" [(ngModel)]="oldFilm.anhBia"  required>
+  </div>
+  <button type="submit" class="btn btn-primary">Thêm phim</button>
+</form>

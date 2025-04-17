@@ -10,16 +10,16 @@ export class FilmService {
   list(){
     return this.api.get(`http://localhost:3000/films`)
   }
-  listbyid(id:string){
+  listbyid(id:number){
     return this.api.get(`http://localhost:3000/films/${id}`)
   }
   add(data:any){
     return this.api.post(`http://localhost:3000/films`,data)
   }
-  Edit(data:any ,id:string){
-    return this.api.post(`http://localhost:3000/films/${id}`,data)
+  Edit(data:any ,id:number){
+    return this.api.put(`http://localhost:3000/films/${id}`,data)
   }
-  remove(id:string){
+  remove(id:number){
     return this.api.delete(`http://localhost:3000/films/${id}`)
   }
 }

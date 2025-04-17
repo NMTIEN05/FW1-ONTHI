@@ -28,7 +28,9 @@
             <img style="height: 10px;" [src]="item.anhBia" alt="">
           </td>
           <td>
-            <button (click)="handele(item.id)" >xoa</button>
+            <button (click)="handelete(item.id)">xoa</button>
+            <button [routerLink]="['/edit',item.id]" >Edit</button>
+           
           </td>
         </tr>
         <!-- Thêm hàng khác nếu cần -->

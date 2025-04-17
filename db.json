@@ -1,14 +1,6 @@
 {
   "films": [
     {
-      "id": 1,
-      "tenPhim": "Avengers: Endgame",
-      "daoDien": "Anthony Russo",
-      "ngayPhatHanh": "2019-04-26",
-      "theLoai": "Hành động",
-      "anhBia": "https://tiki.vn/blog/wp-content/uploads/2023/01/oLkoHpw9cqRtLPTbg67bgtUvUdV1BnXRnAqqBZOVkEtPgf-_Ct3ADFJYXIjfDd0fTyECLEsWq5yZ2CCOEGxIsuHSmNNNUZQcnQT5-Ld6yoK19Q_Sphb0MmX64ga-O_TIPjItNkTL5ns4zqP1Z0OBzsIoeYKtcewnrjnVsw8vfG8uYwwCDkXaoozCrmH1kA.jpg"
-    },
-    {
       "id": 2,
       "tenPhim": "Parasite",
       "daoDien": "Bong Joon Ho",
@@ -33,20 +25,35 @@
       "id": 5
     },
     {
-      "tenPhim": "aaaaaa",
-      "daoDien": "",
-      "ngayPhatHanh": "",
-      "theLoai": "",
-      "anhBia": "",
-      "id": 10
+      "tenPhim": "Tiến dz vcl ",
+      "daoDien": "anhhhs",
+      "ngayPhatHanh": "2025-04-11",
+      "theLoai": "a",
+      "anhBia": "aaaaaaaaaaaaa",
+      "id": 17
     },
     {
-      "tenPhim": "ádaaaaaaa",
-      "daoDien": "saaaaa",
-      "ngayPhatHanh": "2025-04-05",
-      "theLoai": "zzzzzz",
-      "anhBia": "aaa",
-      "id": 11
+      "tenPhim": "aaaaaaaaa",
+      "daoDien": "aaaaaaaa",
+      "ngayPhatHanh": "2025-04-13",
+      "theLoai": "aaaaaaaaaaa",
+      "anhBia ": "",
+      "id": 36
+    },
+    {
+      "tenPhim": "aaaaaaaaa up",
+      "daoDien": "aaaaaaaa",
+      "ngayPhatHanh": "2025-04-13",
+      "theLoai": "aaaaaaaaaaa",
+      "id": 37
+    },
+    {
+      "tenPhim": "ãnhazasa",
+      "daoDien": "anhhhs",
+      "ngayPhatHanh": "2025-04-13",
+      "theLoai": "aaaaaaaaaaaaaaaaa",
+      "anhBia": "aaaaasssssssssss",
+      "id": 38
     }
   ],
   "users": []

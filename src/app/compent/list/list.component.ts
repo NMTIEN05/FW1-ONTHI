@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FilmService } from '../../film.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,RouterLink],
   templateUrl: './list.component.html',
   styleUrl: './list.component.css'
 })
@@ -14,13 +15,13 @@ films:any;
 constructor(private film:FilmService){}
 ngOnInit(){
   this.film.list().subscribe({
-    next :(data)=>{
-    console.log(data);
-    this.films= data;
-    }    
+    next:(data)=>{
+      console.log(data);
+      this.films= data
+    }
   })
 }
-handele(id:string){
+handelete(id:number){
   if(confirm("xoa??")){
     this.film.remove(id).subscribe({
       next:()=>{
