@@ -1,0 +1,36 @@
+
+<h2 class="mb-4">Danh sách phim</h2>
+    <table class="table table-bordered table-striped align-middle text-center">
+      <thead class="table-dark">
+        <tr>
+          <th>Stt</th>
+
+          <th>Tiêu đề</th>
+          <th>Đạo diễn</th>
+          <th>Ngày phát hành</th>
+          <th>Thể loại</th>
+          <th>Ảnh bìa</th>
+          <th></th>
+
+        </tr>
+      </thead>
+      <tbody>
+      
+        <tr *ngFor="let item of films ; let i = index">
+            <td>{{i+1}}</td>
+          <td>{{item.tenPhim}}</td>
+          <td>{{item.daoDien}}</td>
+          <td>{{item.ngayPhatHanh}}</td>
+          <td>{{item.theLoai}}</td>
+          <td>
+            <img [src]="item.anhBia" >
+          </td>
+          <td>
+            <Button (click)="handleDele(item.id)">Xoa</Button>
+            <Button>sua</Button>
+
+          </td>
+        </tr>
+        <!-- Thêm hàng khác nếu cần -->
+      </tbody>
+    </table>

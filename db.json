@@ -1,0 +1,21 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "tenPhim": "Avengers: Endgame",
+      "daoDien": "Anthony Russo",
+      "ngayPhatHanh": "2019-04-26",
+      "theLoai": "Hành động",
+      "anhBia": "https://example.com/avengers-endgame.jpg"
+    },
+    {
+      "id": 2,
+      "tenPhim": "Parasite",
+      "daoDien": "Bong Joon Ho",
+      "ngayPhatHanh": "2019-05-30",
+      "theLoai": "Kinh dị",
+      "anhBia": "https://example.com/parasite.jpg"
+    }
+  ],
+  "users": []
+}
