@@ -6,7 +6,7 @@
       "daoDien": "Anthony Russo",
       "ngayPhatHanh": "2019-04-26",
       "theLoai": "Hành động",
-      "anhBia": "https://example.com/avengers-endgame.jpg"
+      "anhBia": "https://tiki.vn/blog/wp-content/uploads/2023/01/oLkoHpw9cqRtLPTbg67bgtUvUdV1BnXRnAqqBZOVkEtPgf-_Ct3ADFJYXIjfDd0fTyECLEsWq5yZ2CCOEGxIsuHSmNNNUZQcnQT5-Ld6yoK19Q_Sphb0MmX64ga-O_TIPjItNkTL5ns4zqP1Z0OBzsIoeYKtcewnrjnVsw8vfG8uYwwCDkXaoozCrmH1kA.jpg"
     },
     {
       "id": 2,
@@ -15,6 +15,38 @@
       "ngayPhatHanh": "2019-05-30",
       "theLoai": "Kinh dị",
       "anhBia": "https://example.com/parasite.jpg"
+    },
+    {
+      "id": 3,
+      "tenPhim": "Inception",
+      "daoDien": "Christopher Nolan",
+      "ngayPhatHanh": "2010-07-16",
+      "theLoai": "Khoa học viễn tưởng",
+      "anhBia": "https://m.media-amazon.com/images/I/91ebheHJxGL._AC_SL1500_.jpg"
+    },
+    {
+      "tenPhim": "Tiến dz vcl ",
+      "daoDien": "anhhhs",
+      "ngayPhatHanh": "2025-04-05",
+      "theLoai": "a",
+      "anhBia": "aaa",
+      "id": 5
+    },
+    {
+      "tenPhim": "aaaaaa",
+      "daoDien": "",
+      "ngayPhatHanh": "",
+      "theLoai": "",
+      "anhBia": "",
+      "id": 10
+    },
+    {
+      "tenPhim": "ádaaaaaaa",
+      "daoDien": "saaaaa",
+      "ngayPhatHanh": "2025-04-05",
+      "theLoai": "zzzzzz",
+      "anhBia": "aaa",
+      "id": 11
     }
   ],
   "users": []
